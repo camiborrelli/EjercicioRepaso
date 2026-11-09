@@ -1,0 +1,10 @@
+# Carpeta de Imágenes
+
+Puedes guardar aquí las fotos reales de tus productos (por ejemplo `torta-gladiador.jpg`, `volcan-3m.png`).
+
+Luego, en `src/data/products.js`, simplemente añade la propiedad:
+```javascript
+image: '/images/torta-gladiador.jpg'
+```
+O también puedes usar cualquier enlace de imagen web directo (URL https://...).
+

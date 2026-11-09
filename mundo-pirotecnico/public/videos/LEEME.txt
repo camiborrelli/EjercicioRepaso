@@ -1,0 +1,13 @@
+# Carpeta de Videos
+
+Puedes guardar aquí los archivos de video de tus productos (por ejemplo `torta-titan.mp4`, `volcan-etna.mp4`).
+
+Luego, en `src/data/products.js`, simplemente añade la propiedad:
+```javascript
+video: '/videos/torta-titan.mp4'
+```
+O también puedes usar enlaces directos de **YouTube**:
+```javascript
+video: 'https://www.youtube.com/watch?v=TU_VIDEO_ID'
+```
+
